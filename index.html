@@ -7,28 +7,58 @@
     <title>Manga App</title>
 </head>
 <body>
+    <div class="topbar">
+        <button class="account-button">Account</button>
+    </div>
+
     <h1>My Manga App</h1>
-    <button>Account</button>
 
     <div class="search-container">
         <input type="search" placeholder="Manga eingeben">
         <button>Search</button>
-        <ul>
-            <li>Manga 1 <button>Hinzufügen</button></li>
-            <li>Manga 2 <button>Hinzufügen</button></li>
-            <li>Manga 3 <button>Hinzufügen</button></li>
-        </ul>
+        <div class="search-results">
+            <div class="result-item">
+                <img class="result-img" src="images/EnsembleStarsPoster.jpg" alt="Ensemble Stars">
+                <a class="result-item-title">Ensemble Stars</a>
+                <div class="result-item-button-container">
+                    <button>Add to Wishlist</button>
+                </div>
+            </div>
+            <div class="result-item">
+                <img class="result-img" src="images/InazumaElevenPoster.jpg" alt="Inazuma Eleven">
+                <a class="result-item-title">Inazuma Eleven</a>
+                <div class="result-item-button-container">
+                    <button>Add to Wishlist</button>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
-    <button>Gelesen</button>
-    <button>Wunschliste</button>
 
-    <div>
-        <ul>
-            <li>Manga 1 <button>Bearbeiten</button></li>
-            <li>Manga 2 <button>Bearbeiten</button></li>
-            <li>Manga 3 <button>Bearbeiten</button></li>
-        </ul>
+    <h1>Wishlist</h1>
+
+    <div class="search-container">
+        <div class="search-results">
+            <div class="result-item">
+                <img class="result-img" src="images/EnsembleStarsPoster.jpg" alt="Ensemble Stars">
+                <a class="result-item-title">Ensemble Stars</a>
+                <div class="result-item-button-container">
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </div>
+            </div>
+            <div class="result-item">
+                <img class="result-img" src="images/InazumaElevenPoster.jpg" alt="Inazuma Eleven">
+                <a class="result-item-title">Inazuma Eleven</a>
+                <div class="result-item-button-container">
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 
     </div>
     
